@@ -7,7 +7,6 @@
     margin-top: 10px;
     color: #FFF;
     justify-content: space-evenly;
-    /* min-height: 493px; */
     width: 95%;
 
     border-radius: 10px;
@@ -18,7 +17,6 @@
     flex-direction: column;
     margin-left: 70px;
     margin-top: 160px;
-    /* width: 53%; */
     margin-left: auto;
     margin-right: auto;
     align-items: center;
