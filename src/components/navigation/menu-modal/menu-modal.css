@@ -1,0 +1,106 @@
+.menu-modal {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(48, 48, 48, 1);
+    width: 520px;
+    height: 100%;
+}
+
+.menu-modal__close {
+    padding: 0;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    background-image: url('../../../images/close.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 125, 215, 0);
+    border: 0;
+    width: 26px;
+    height: 26px;
+}
+
+.menu-modal__close:hover {
+cursor: pointer;
+}
+
+.menu-modal__list_box {
+    margin-top: 159px;
+    margin-bottom: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.menu-modal__list_account {
+    margin-top: 617px;
+    margin-bottom: 92px;
+    padding: 0;
+}
+
+.menu-modal__list {
+    margin: 0;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.menu-modal__list:first-of-type {
+    margin: 0;
+}
+
+.menu-modal__list:last-of-type {
+    margin-left: 0;
+}
+
+.menu-modal__link_wrapper {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.menu-modal__link {
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 4px;
+}
+
+.menu-modal__link:hover {
+    opacity: .8;
+    border-bottom: 2px solid white;
+}
+
+.menu-modal__text {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.menu-modal__account-logo {
+    background-color: #F9F9F9;
+}
+
+@media screen and (max-width: 767px) {
+    .menu-modal {
+        width: 320px;
+    }
+
+    .menu-modal__close {
+        top: 17px;
+        right: 17px;
+    }
+
+    .menu-modal__list_box {
+        margin-top: 140px;
+    }
+
+    .menu-modal__list_account {
+        margin-top: 434px;
+    }
+}
