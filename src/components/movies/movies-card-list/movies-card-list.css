@@ -54,6 +54,9 @@
   .movies-card-box {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 45px;
+    width: 64%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 }
