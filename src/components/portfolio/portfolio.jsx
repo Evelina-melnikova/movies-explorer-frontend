@@ -42,7 +42,7 @@ function Portfolio() {
         </li>
         <li className='portfolio__list-item'>
           <a
-            className='portfolio__link'
+            className='portfolio__link portfolio__link_last'
             href='https://github.com/Evelina-melnikova/IT-Alliance'
             target='_blank'
             rel='noopener noreferrer'

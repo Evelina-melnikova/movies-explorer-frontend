@@ -8,8 +8,7 @@ function Techs() {
       <div className="techs__container">
         <h3 className='title techs__title'>7 технологий</h3>
         <p className='techs__subtitle'>
-          На&nbsp;курсе веб-разработки мы&nbsp;освоили технологии, которые применили
-          в&nbsp;дипломном проекте.
+          На&nbsp;курсе веб-разработки мы&nbsp;освоили технологии, которые применили в&nbsp;дипломном проекте.
         </p>
         <ul className='techs__list'>
           <li className='techs__list-item'>HTML</li>
@@ -24,5 +23,4 @@ function Techs() {
     </section>
   );
 }
-
 export default Techs;

@@ -1,10 +1,13 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+
 import './profile.css';
 
 function Profile() {
 
   return (
-    <main className='profile'>
+    <main>
+      <section className='profile'>
       <h1 className='profile__title'> Привет, Виталий! </h1>
       <form className='profile__form'>
         <div className='profile__container'>
@@ -30,8 +33,9 @@ function Profile() {
       </form>
       <div className='profile__container-button'>
         <button type='button' className='profile__button profile__button_edit'> Редактировать </button>
-        <button type='button' className='profile__button'> Выйти из аккаунта </button>
+        <Link to={'/sign-up'}> <button type='button' className='profile__button'> Выйти из аккаунта </button></Link> 
       </div>
+      </section>
     </main>
   );
 }
