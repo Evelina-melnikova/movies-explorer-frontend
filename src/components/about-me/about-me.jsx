@@ -8,8 +8,8 @@ function AboutMe() {
       <h2 className='subtitle'>Студент</h2>
       <div className='about-me__container'>
         <div className='about-me__text-wrapper'>
-          <h3 className='title about-me__title'>Виталий</h3>
-          <h2 className='about-me__subtitle'>Фронтенд-разработчик, 30 лет</h2>
+          <h2 className='title about-me__title'>Виталий</h2>
+          <h3 className='about-me__subtitle'>Фронтенд-разработчик, 30 лет</h3>
           <p className='about-me__text'>
             Я&nbsp;родился и&nbsp;живу в&nbsp;Саратове, закончил факультет экономики СГУ. У&nbsp;меня есть жена
             и&nbsp;дочь. Я&nbsp;люблю слушать музыку, а&nbsp;ещё увлекаюсь бегом. Недавно начал кодить. С

@@ -12,6 +12,8 @@ function SearchForm() {
             name='film'
             type='text'
             required={true}
+            minLength={2}
+            maxLength={30}
             placeholder='Фильм'
             className='search-form__input'
           />

@@ -36,14 +36,14 @@ function Navigation({ isLoggedIn }) {
                     <img className='navigation__logo' alt='Логотип' src={Logo} onClick={() => navigate('/')} />
                 </div>
                 {width > 1279 && isLoggedIn && (
-                    <div className="navigation__list-box">
+                    <ul className="navigation__list-box">
                         <li className='navigation__list-links'>
                             <Link to={'/movies'} className='navigation__link'> Фильмы </Link>
                         </li>
                         <li className='navigation__list-links'>
                             <Link to={'/saved-movies'} className='navigation__link'> Сохранённые фильмы </Link>
                         </li>
-                    </div>
+                    </ul>
                 )}
                 {width > 1279 && isLoggedIn
                     ? (

@@ -6,9 +6,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: rgba(48, 48, 48, 1);
+    background: rgba(32, 32, 32, 1);
     width: 520px;
     height: 100%;
+    filter: drop-shadow(0 0 43px rgba(0, 0, 0, 1));
 }
 
 .menu-modal__close {
@@ -24,20 +25,21 @@
     border: 0;
     width: 26px;
     height: 26px;
+
 }
 
 .menu-modal__close:hover {
 cursor: pointer;
 }
 
-.menu-modal__list_box {
+.menu-modal__list-box {
     margin-top: 159px;
     margin-bottom: 0;
     padding: 0;
     align-items: center;
 }
 
-.menu-modal__list_account {
+.menu-modal__list-account{
     margin-top: 617px;
     margin-bottom: 92px;
     padding: 0;
@@ -59,7 +61,7 @@ cursor: pointer;
     margin-left: 0;
 }
 
-.menu-modal__link_wrapper {
+.menu-modal__link-wrapper {
     display: flex;
     align-items: center;
     margin: 0;
@@ -96,11 +98,11 @@ cursor: pointer;
         right: 17px;
     }
 
-    .menu-modal__list_box {
+    .menu-modal__list-box {
         margin-top: 140px;
     }
 
-    .menu-modal__list_account {
+    .menu-modal__list-account {
         margin-top: 434px;
     }
 }

@@ -12,7 +12,7 @@ function MoviesCardList() {
         <MoviesCard></MoviesCard>
       {isMovies ? (
       <div className='movies-card-list__more'>
-        <button className='movies-card-list__more-button'>Ещё</button>
+        <button type='button' className='movies-card-list__more-button'>Ещё</button>
       </div>
       ) : ''}
     </section>

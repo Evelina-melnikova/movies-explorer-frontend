@@ -59,7 +59,7 @@
 
 .profile__container-button {
   margin-top: 204px;
-  width: 410px;
+  max-width: 410px;
   display: flex;
   flex-direction: column;
 }
